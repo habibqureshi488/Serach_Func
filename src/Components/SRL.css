@@ -1,0 +1,36 @@
+ul {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    justify-content: center;
+    /* display: flex; */
+    align-content: center;
+    margin-left: 40ch;
+    margin-right: 40ch;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style for the list */
+  .list {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  /* Style for list items */
+  .list-item {
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    padding: 10px;
+  }
+
+  /* Hover effect */
+  .list-item:hover {
+    background-color: #413d3d;
+    color: rgb(255, 255, 255);
+  }
+
+  /* Style for the last list item */
+  .list-item:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+  }
